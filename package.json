@@ -1,0 +1,12 @@
+{
+  "name": "design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "style-dictionary": "^3.7.1"
+  },
+  "scripts": {
+    "build": "style-dictionary build"
+  }
+}
