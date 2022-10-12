@@ -1,141 +1,139 @@
 /**
  * Do not edit directly
- * Generated on Wed, 12 Oct 2022 11:19:50 GMT
+ * Generated on Wed, 12 Oct 2022 13:36:44 GMT
  */
 
-module.exports = {
-  "ColorBlack": "#000000",
-  "ColorWhite": "#ffffff",
-  "FontBody1": {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.5,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"},
-  "FontBody2": {"fontSize":14,"textDecoration":"none","fontFamily":"Alice","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.035,"lineHeight":14,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"},
-  "FontCaption": {"fontSize":12,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.4,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"uppercase"},
-  "FontUntitledSubtitleSubtitle1": {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":500,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.1,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"},
-  "FontUntitledSubtitleSubtitle2": {"fontSize":14,"textDecoration":"none","fontFamily":"Alice","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":14,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"},
-  "FontHeadlineHeadline1": {"fontSize":96,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":300,"fontStyle":"normal","fontStretch":"normal","letterSpacing":-1.5,"lineHeight":96,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"capitalize"},
-  "FontHeadlineHeadline2": {"fontSize":64,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":300,"fontStyle":"normal","fontStretch":"normal","letterSpacing":-0.5,"lineHeight":72,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"},
-  "FontHeadlineHeadline3": {"fontSize":48,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":48,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"},
-  "FontHeadlineHeadline4": {"fontSize":34,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.25,"lineHeight":34,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"},
-  "FontHeadlineHeadline5": {"fontSize":24,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":24,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"},
-  "FontHeadlineHeadline6": {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":500,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.15,"lineHeight":24,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"},
-  "TypographyBody1FontSize": 16,
-  "TypographyBody1TextDecoration": "none",
-  "TypographyBody1FontFamily": "Noto Serif",
-  "TypographyBody1FontWeight": 400,
-  "TypographyBody1FontStyle": "normal",
-  "TypographyBody1FontStretch": "normal",
-  "TypographyBody1LetterSpacing": 0.5,
-  "TypographyBody1LineHeight": 16,
-  "TypographyBody1ParagraphIndent": 0,
-  "TypographyBody1ParagraphSpacing": 0,
-  "TypographyBody1TextCase": "none",
-  "TypographyBody2FontSize": 14,
-  "TypographyBody2TextDecoration": "none",
-  "TypographyBody2FontFamily": "Alice",
-  "TypographyBody2FontWeight": 400,
-  "TypographyBody2FontStyle": "normal",
-  "TypographyBody2FontStretch": "normal",
-  "TypographyBody2LetterSpacing": 0.035,
-  "TypographyBody2LineHeight": 14,
-  "TypographyBody2ParagraphIndent": 0,
-  "TypographyBody2ParagraphSpacing": 0,
-  "TypographyBody2TextCase": "none",
-  "TypographyCaptionFontSize": 12,
-  "TypographyCaptionTextDecoration": "none",
-  "TypographyCaptionFontFamily": "Noto Serif",
-  "TypographyCaptionFontWeight": 400,
-  "TypographyCaptionFontStyle": "normal",
-  "TypographyCaptionFontStretch": "normal",
-  "TypographyCaptionLetterSpacing": 0.4,
-  "TypographyCaptionLineHeight": 16,
-  "TypographyCaptionParagraphIndent": 0,
-  "TypographyCaptionParagraphSpacing": 0,
-  "TypographyCaptionTextCase": "uppercase",
-  "TypographyUntitledSubtitleSubtitle1FontSize": 16,
-  "TypographyUntitledSubtitleSubtitle1TextDecoration": "none",
-  "TypographyUntitledSubtitleSubtitle1FontFamily": "Noto Serif",
-  "TypographyUntitledSubtitleSubtitle1FontWeight": 500,
-  "TypographyUntitledSubtitleSubtitle1FontStyle": "normal",
-  "TypographyUntitledSubtitleSubtitle1FontStretch": "normal",
-  "TypographyUntitledSubtitleSubtitle1LetterSpacing": 0.1,
-  "TypographyUntitledSubtitleSubtitle1LineHeight": 16,
-  "TypographyUntitledSubtitleSubtitle1ParagraphIndent": 0,
-  "TypographyUntitledSubtitleSubtitle1ParagraphSpacing": 0,
-  "TypographyUntitledSubtitleSubtitle1TextCase": "none",
-  "TypographyUntitledSubtitleSubtitle2FontSize": 14,
-  "TypographyUntitledSubtitleSubtitle2TextDecoration": "none",
-  "TypographyUntitledSubtitleSubtitle2FontFamily": "Alice",
-  "TypographyUntitledSubtitleSubtitle2FontWeight": 400,
-  "TypographyUntitledSubtitleSubtitle2FontStyle": "normal",
-  "TypographyUntitledSubtitleSubtitle2FontStretch": "normal",
-  "TypographyUntitledSubtitleSubtitle2LetterSpacing": 0,
-  "TypographyUntitledSubtitleSubtitle2LineHeight": 14,
-  "TypographyUntitledSubtitleSubtitle2ParagraphIndent": 0,
-  "TypographyUntitledSubtitleSubtitle2ParagraphSpacing": 0,
-  "TypographyUntitledSubtitleSubtitle2TextCase": "none",
-  "TypographyHeadlineHeadline1FontSize": 96,
-  "TypographyHeadlineHeadline1TextDecoration": "none",
-  "TypographyHeadlineHeadline1FontFamily": "Noto Serif",
-  "TypographyHeadlineHeadline1FontWeight": 300,
-  "TypographyHeadlineHeadline1FontStyle": "normal",
-  "TypographyHeadlineHeadline1FontStretch": "normal",
-  "TypographyHeadlineHeadline1LetterSpacing": -1.5,
-  "TypographyHeadlineHeadline1LineHeight": 96,
-  "TypographyHeadlineHeadline1ParagraphIndent": 0,
-  "TypographyHeadlineHeadline1ParagraphSpacing": 0,
-  "TypographyHeadlineHeadline1TextCase": "capitalize",
-  "TypographyHeadlineHeadline2FontSize": 64,
-  "TypographyHeadlineHeadline2TextDecoration": "none",
-  "TypographyHeadlineHeadline2FontFamily": "Noto Serif",
-  "TypographyHeadlineHeadline2FontWeight": 300,
-  "TypographyHeadlineHeadline2FontStyle": "normal",
-  "TypographyHeadlineHeadline2FontStretch": "normal",
-  "TypographyHeadlineHeadline2LetterSpacing": -0.5,
-  "TypographyHeadlineHeadline2LineHeight": 72,
-  "TypographyHeadlineHeadline2ParagraphIndent": 0,
-  "TypographyHeadlineHeadline2ParagraphSpacing": 0,
-  "TypographyHeadlineHeadline2TextCase": "none",
-  "TypographyHeadlineHeadline3FontSize": 48,
-  "TypographyHeadlineHeadline3TextDecoration": "none",
-  "TypographyHeadlineHeadline3FontFamily": "Noto Serif",
-  "TypographyHeadlineHeadline3FontWeight": 400,
-  "TypographyHeadlineHeadline3FontStyle": "normal",
-  "TypographyHeadlineHeadline3FontStretch": "normal",
-  "TypographyHeadlineHeadline3LetterSpacing": 0,
-  "TypographyHeadlineHeadline3LineHeight": 48,
-  "TypographyHeadlineHeadline3ParagraphIndent": 0,
-  "TypographyHeadlineHeadline3ParagraphSpacing": 0,
-  "TypographyHeadlineHeadline3TextCase": "none",
-  "TypographyHeadlineHeadline4FontSize": 34,
-  "TypographyHeadlineHeadline4TextDecoration": "none",
-  "TypographyHeadlineHeadline4FontFamily": "Noto Serif",
-  "TypographyHeadlineHeadline4FontWeight": 400,
-  "TypographyHeadlineHeadline4FontStyle": "normal",
-  "TypographyHeadlineHeadline4FontStretch": "normal",
-  "TypographyHeadlineHeadline4LetterSpacing": 0.25,
-  "TypographyHeadlineHeadline4LineHeight": 34,
-  "TypographyHeadlineHeadline4ParagraphIndent": 0,
-  "TypographyHeadlineHeadline4ParagraphSpacing": 0,
-  "TypographyHeadlineHeadline4TextCase": "none",
-  "TypographyHeadlineHeadline5FontSize": 24,
-  "TypographyHeadlineHeadline5TextDecoration": "none",
-  "TypographyHeadlineHeadline5FontFamily": "Noto Serif",
-  "TypographyHeadlineHeadline5FontWeight": 400,
-  "TypographyHeadlineHeadline5FontStyle": "normal",
-  "TypographyHeadlineHeadline5FontStretch": "normal",
-  "TypographyHeadlineHeadline5LetterSpacing": 0,
-  "TypographyHeadlineHeadline5LineHeight": 24,
-  "TypographyHeadlineHeadline5ParagraphIndent": 0,
-  "TypographyHeadlineHeadline5ParagraphSpacing": 0,
-  "TypographyHeadlineHeadline5TextCase": "none",
-  "TypographyHeadlineHeadline6FontSize": 16,
-  "TypographyHeadlineHeadline6TextDecoration": "none",
-  "TypographyHeadlineHeadline6FontFamily": "Noto Serif",
-  "TypographyHeadlineHeadline6FontWeight": 500,
-  "TypographyHeadlineHeadline6FontStyle": "normal",
-  "TypographyHeadlineHeadline6FontStretch": "normal",
-  "TypographyHeadlineHeadline6LetterSpacing": 0.15,
-  "TypographyHeadlineHeadline6LineHeight": 24,
-  "TypographyHeadlineHeadline6ParagraphIndent": 0,
-  "TypographyHeadlineHeadline6ParagraphSpacing": 0,
-  "TypographyHeadlineHeadline6TextCase": "none"
-};
+export const ColorBlack = "#000000";
+export const ColorWhite = "#ffffff";
+export const FontBody1 = {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.5,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontBody2 = {"fontSize":14,"textDecoration":"none","fontFamily":"Alice","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.035,"lineHeight":14,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontCaption = {"fontSize":12,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.4,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"uppercase"};
+export const FontUntitledSubtitleSubtitle1 = {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":500,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.1,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontUntitledSubtitleSubtitle2 = {"fontSize":14,"textDecoration":"none","fontFamily":"Alice","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":14,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontHeadlineHeadline1 = {"fontSize":96,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":300,"fontStyle":"normal","fontStretch":"normal","letterSpacing":-1.5,"lineHeight":96,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"capitalize"};
+export const FontHeadlineHeadline2 = {"fontSize":64,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":300,"fontStyle":"normal","fontStretch":"normal","letterSpacing":-0.5,"lineHeight":72,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontHeadlineHeadline3 = {"fontSize":48,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":48,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontHeadlineHeadline4 = {"fontSize":34,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.25,"lineHeight":34,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontHeadlineHeadline5 = {"fontSize":24,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":24,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontHeadlineHeadline6 = {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":500,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.15,"lineHeight":24,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const TypographyBody1FontSize = 16;
+export const TypographyBody1TextDecoration = "none";
+export const TypographyBody1FontFamily = "Noto Serif";
+export const TypographyBody1FontWeight = 400;
+export const TypographyBody1FontStyle = "normal";
+export const TypographyBody1FontStretch = "normal";
+export const TypographyBody1LetterSpacing = 0.5;
+export const TypographyBody1LineHeight = 16;
+export const TypographyBody1ParagraphIndent = 0;
+export const TypographyBody1ParagraphSpacing = 0;
+export const TypographyBody1TextCase = "none";
+export const TypographyBody2FontSize = 14;
+export const TypographyBody2TextDecoration = "none";
+export const TypographyBody2FontFamily = "Alice";
+export const TypographyBody2FontWeight = 400;
+export const TypographyBody2FontStyle = "normal";
+export const TypographyBody2FontStretch = "normal";
+export const TypographyBody2LetterSpacing = 0.035;
+export const TypographyBody2LineHeight = 14;
+export const TypographyBody2ParagraphIndent = 0;
+export const TypographyBody2ParagraphSpacing = 0;
+export const TypographyBody2TextCase = "none";
+export const TypographyCaptionFontSize = 12;
+export const TypographyCaptionTextDecoration = "none";
+export const TypographyCaptionFontFamily = "Noto Serif";
+export const TypographyCaptionFontWeight = 400;
+export const TypographyCaptionFontStyle = "normal";
+export const TypographyCaptionFontStretch = "normal";
+export const TypographyCaptionLetterSpacing = 0.4;
+export const TypographyCaptionLineHeight = 16;
+export const TypographyCaptionParagraphIndent = 0;
+export const TypographyCaptionParagraphSpacing = 0;
+export const TypographyCaptionTextCase = "uppercase";
+export const TypographyUntitledSubtitleSubtitle1FontSize = 16;
+export const TypographyUntitledSubtitleSubtitle1TextDecoration = "none";
+export const TypographyUntitledSubtitleSubtitle1FontFamily = "Noto Serif";
+export const TypographyUntitledSubtitleSubtitle1FontWeight = 500;
+export const TypographyUntitledSubtitleSubtitle1FontStyle = "normal";
+export const TypographyUntitledSubtitleSubtitle1FontStretch = "normal";
+export const TypographyUntitledSubtitleSubtitle1LetterSpacing = 0.1;
+export const TypographyUntitledSubtitleSubtitle1LineHeight = 16;
+export const TypographyUntitledSubtitleSubtitle1ParagraphIndent = 0;
+export const TypographyUntitledSubtitleSubtitle1ParagraphSpacing = 0;
+export const TypographyUntitledSubtitleSubtitle1TextCase = "none";
+export const TypographyUntitledSubtitleSubtitle2FontSize = 14;
+export const TypographyUntitledSubtitleSubtitle2TextDecoration = "none";
+export const TypographyUntitledSubtitleSubtitle2FontFamily = "Alice";
+export const TypographyUntitledSubtitleSubtitle2FontWeight = 400;
+export const TypographyUntitledSubtitleSubtitle2FontStyle = "normal";
+export const TypographyUntitledSubtitleSubtitle2FontStretch = "normal";
+export const TypographyUntitledSubtitleSubtitle2LetterSpacing = 0;
+export const TypographyUntitledSubtitleSubtitle2LineHeight = 14;
+export const TypographyUntitledSubtitleSubtitle2ParagraphIndent = 0;
+export const TypographyUntitledSubtitleSubtitle2ParagraphSpacing = 0;
+export const TypographyUntitledSubtitleSubtitle2TextCase = "none";
+export const TypographyHeadlineHeadline1FontSize = 96;
+export const TypographyHeadlineHeadline1TextDecoration = "none";
+export const TypographyHeadlineHeadline1FontFamily = "Noto Serif";
+export const TypographyHeadlineHeadline1FontWeight = 300;
+export const TypographyHeadlineHeadline1FontStyle = "normal";
+export const TypographyHeadlineHeadline1FontStretch = "normal";
+export const TypographyHeadlineHeadline1LetterSpacing = -1.5;
+export const TypographyHeadlineHeadline1LineHeight = 96;
+export const TypographyHeadlineHeadline1ParagraphIndent = 0;
+export const TypographyHeadlineHeadline1ParagraphSpacing = 0;
+export const TypographyHeadlineHeadline1TextCase = "capitalize";
+export const TypographyHeadlineHeadline2FontSize = 64;
+export const TypographyHeadlineHeadline2TextDecoration = "none";
+export const TypographyHeadlineHeadline2FontFamily = "Noto Serif";
+export const TypographyHeadlineHeadline2FontWeight = 300;
+export const TypographyHeadlineHeadline2FontStyle = "normal";
+export const TypographyHeadlineHeadline2FontStretch = "normal";
+export const TypographyHeadlineHeadline2LetterSpacing = -0.5;
+export const TypographyHeadlineHeadline2LineHeight = 72;
+export const TypographyHeadlineHeadline2ParagraphIndent = 0;
+export const TypographyHeadlineHeadline2ParagraphSpacing = 0;
+export const TypographyHeadlineHeadline2TextCase = "none";
+export const TypographyHeadlineHeadline3FontSize = 48;
+export const TypographyHeadlineHeadline3TextDecoration = "none";
+export const TypographyHeadlineHeadline3FontFamily = "Noto Serif";
+export const TypographyHeadlineHeadline3FontWeight = 400;
+export const TypographyHeadlineHeadline3FontStyle = "normal";
+export const TypographyHeadlineHeadline3FontStretch = "normal";
+export const TypographyHeadlineHeadline3LetterSpacing = 0;
+export const TypographyHeadlineHeadline3LineHeight = 48;
+export const TypographyHeadlineHeadline3ParagraphIndent = 0;
+export const TypographyHeadlineHeadline3ParagraphSpacing = 0;
+export const TypographyHeadlineHeadline3TextCase = "none";
+export const TypographyHeadlineHeadline4FontSize = 34;
+export const TypographyHeadlineHeadline4TextDecoration = "none";
+export const TypographyHeadlineHeadline4FontFamily = "Noto Serif";
+export const TypographyHeadlineHeadline4FontWeight = 400;
+export const TypographyHeadlineHeadline4FontStyle = "normal";
+export const TypographyHeadlineHeadline4FontStretch = "normal";
+export const TypographyHeadlineHeadline4LetterSpacing = 0.25;
+export const TypographyHeadlineHeadline4LineHeight = 34;
+export const TypographyHeadlineHeadline4ParagraphIndent = 0;
+export const TypographyHeadlineHeadline4ParagraphSpacing = 0;
+export const TypographyHeadlineHeadline4TextCase = "none";
+export const TypographyHeadlineHeadline5FontSize = 24;
+export const TypographyHeadlineHeadline5TextDecoration = "none";
+export const TypographyHeadlineHeadline5FontFamily = "Noto Serif";
+export const TypographyHeadlineHeadline5FontWeight = 400;
+export const TypographyHeadlineHeadline5FontStyle = "normal";
+export const TypographyHeadlineHeadline5FontStretch = "normal";
+export const TypographyHeadlineHeadline5LetterSpacing = 0;
+export const TypographyHeadlineHeadline5LineHeight = 24;
+export const TypographyHeadlineHeadline5ParagraphIndent = 0;
+export const TypographyHeadlineHeadline5ParagraphSpacing = 0;
+export const TypographyHeadlineHeadline5TextCase = "none";
+export const TypographyHeadlineHeadline6FontSize = 16;
+export const TypographyHeadlineHeadline6TextDecoration = "none";
+export const TypographyHeadlineHeadline6FontFamily = "Noto Serif";
+export const TypographyHeadlineHeadline6FontWeight = 500;
+export const TypographyHeadlineHeadline6FontStyle = "normal";
+export const TypographyHeadlineHeadline6FontStretch = "normal";
+export const TypographyHeadlineHeadline6LetterSpacing = 0.15;
+export const TypographyHeadlineHeadline6LineHeight = 24;
+export const TypographyHeadlineHeadline6ParagraphIndent = 0;
+export const TypographyHeadlineHeadline6ParagraphSpacing = 0;
+export const TypographyHeadlineHeadline6TextCase = "none";
