@@ -16,7 +16,7 @@ jobs:
         with:
           name: ${{ github.event.client_payload.filename }}
           json: ${{ github.event.client_payload.tokens }}
-          dir: "tokens/input"
+          dir: "packages/tokens/input"
 
       - name: Install Node.js
         uses: actions/setup-node@v3
