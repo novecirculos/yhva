@@ -22,11 +22,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: "npm"
+          cache-dependency-path: "**/package-lock.json"
 
       - name: Install dependencies
+        working-directory: ./packages/tokens
         run: npm ci
 
       - name: Build
+        working-directory: ./packages/tokens
         run: npm run build
 
       - name: Create PR
