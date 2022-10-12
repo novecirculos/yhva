@@ -31,7 +31,7 @@ jobs:
 
       - name: Build
         working-directory: ./packages/tokens
-        run: npm run build
+        run: npm run build-tokens
 
       - name: Create PR
         uses: peter-evans/create-pull-request@v4
