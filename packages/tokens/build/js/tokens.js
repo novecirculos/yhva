@@ -1,275 +1,141 @@
 /**
  * Do not edit directly
- * Generated on Wed, 12 Oct 2022 11:38:31 GMT
+ * Generated on Thu, 13 Oct 2022 22:21:33 GMT
  */
 
-module.exports = {
-  ColorBlack: "#000000",
-  ColorWhite: "#ffffff",
-  ColorPrimary: "#a82424",
-  ColorSecondary: "#d98736",
-  FontHeading2xl: {
-    fontSize: 96,
-    textDecoration: "none",
-    fontFamily: "Noto Serif",
-    fontWeight: 300,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: -1.5,
-    lineHeight: 96,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "capitalize",
-  },
-  FontHeadingXl: {
-    fontSize: 64,
-    textDecoration: "none",
-    fontFamily: "Noto Serif",
-    fontWeight: 300,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: -0.5,
-    lineHeight: 72,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "none",
-  },
-  FontHeadingLg: {
-    fontSize: 48,
-    textDecoration: "none",
-    fontFamily: "Noto Serif",
-    fontWeight: 400,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: 0,
-    lineHeight: 48,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "none",
-  },
-  FontHeadingMd: {
-    fontSize: 34,
-    textDecoration: "none",
-    fontFamily: "Noto Serif",
-    fontWeight: 400,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: 0.25,
-    lineHeight: 34,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "none",
-  },
-  FontHeadingSm: {
-    fontSize: 24,
-    textDecoration: "none",
-    fontFamily: "Noto Serif",
-    fontWeight: 400,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: 0,
-    lineHeight: 24,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "none",
-  },
-  FontHeadingXs: {
-    fontSize: 16,
-    textDecoration: "none",
-    fontFamily: "Noto Serif",
-    fontWeight: 500,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: 0.15,
-    lineHeight: 24,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "none",
-  },
-  FontSubtitleLg: {
-    fontSize: 16,
-    textDecoration: "none",
-    fontFamily: "Noto Serif",
-    fontWeight: 500,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: 0.1,
-    lineHeight: 16,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "none",
-  },
-  FontSubtitleMd: {
-    fontSize: 14,
-    textDecoration: "none",
-    fontFamily: "Alice",
-    fontWeight: 400,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: 0,
-    lineHeight: 14,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "none",
-  },
-  FontTextMd: {
-    fontSize: 16,
-    textDecoration: "none",
-    fontFamily: "Noto Serif",
-    fontWeight: 400,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: 0.5,
-    lineHeight: 16,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "none",
-  },
-  FontTextSm: {
-    fontSize: 14,
-    textDecoration: "none",
-    fontFamily: "Alice",
-    fontWeight: 400,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: 0.035,
-    lineHeight: 14,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "none",
-  },
-  FontCaptionCaption: {
-    fontSize: 12,
-    textDecoration: "none",
-    fontFamily: "Noto Serif",
-    fontWeight: 400,
-    fontStyle: "normal",
-    fontStretch: "normal",
-    letterSpacing: 0.4,
-    lineHeight: 16,
-    paragraphIndent: 0,
-    paragraphSpacing: 0,
-    textCase: "uppercase",
-  },
-  TypographyHeading2xlFontSize: 96,
-  TypographyHeading2xlTextDecoration: "none",
-  TypographyHeading2xlFontFamily: "Noto Serif",
-  TypographyHeading2xlFontWeight: 300,
-  TypographyHeading2xlFontStyle: "normal",
-  TypographyHeading2xlFontStretch: "normal",
-  TypographyHeading2xlLetterSpacing: -1.5,
-  TypographyHeading2xlLineHeight: 96,
-  TypographyHeading2xlParagraphIndent: 0,
-  TypographyHeading2xlParagraphSpacing: 0,
-  TypographyHeading2xlTextCase: "capitalize",
-  TypographyHeadingXlFontSize: 64,
-  TypographyHeadingXlTextDecoration: "none",
-  TypographyHeadingXlFontFamily: "Noto Serif",
-  TypographyHeadingXlFontWeight: 300,
-  TypographyHeadingXlFontStyle: "normal",
-  TypographyHeadingXlFontStretch: "normal",
-  TypographyHeadingXlLetterSpacing: -0.5,
-  TypographyHeadingXlLineHeight: 72,
-  TypographyHeadingXlParagraphIndent: 0,
-  TypographyHeadingXlParagraphSpacing: 0,
-  TypographyHeadingXlTextCase: "none",
-  TypographyHeadingLgFontSize: 48,
-  TypographyHeadingLgTextDecoration: "none",
-  TypographyHeadingLgFontFamily: "Noto Serif",
-  TypographyHeadingLgFontWeight: 400,
-  TypographyHeadingLgFontStyle: "normal",
-  TypographyHeadingLgFontStretch: "normal",
-  TypographyHeadingLgLetterSpacing: 0,
-  TypographyHeadingLgLineHeight: 48,
-  TypographyHeadingLgParagraphIndent: 0,
-  TypographyHeadingLgParagraphSpacing: 0,
-  TypographyHeadingLgTextCase: "none",
-  TypographyHeadingMdFontSize: 34,
-  TypographyHeadingMdTextDecoration: "none",
-  TypographyHeadingMdFontFamily: "Noto Serif",
-  TypographyHeadingMdFontWeight: 400,
-  TypographyHeadingMdFontStyle: "normal",
-  TypographyHeadingMdFontStretch: "normal",
-  TypographyHeadingMdLetterSpacing: 0.25,
-  TypographyHeadingMdLineHeight: 34,
-  TypographyHeadingMdParagraphIndent: 0,
-  TypographyHeadingMdParagraphSpacing: 0,
-  TypographyHeadingMdTextCase: "none",
-  TypographyHeadingSmFontSize: 24,
-  TypographyHeadingSmTextDecoration: "none",
-  TypographyHeadingSmFontFamily: "Noto Serif",
-  TypographyHeadingSmFontWeight: 400,
-  TypographyHeadingSmFontStyle: "normal",
-  TypographyHeadingSmFontStretch: "normal",
-  TypographyHeadingSmLetterSpacing: 0,
-  TypographyHeadingSmLineHeight: 24,
-  TypographyHeadingSmParagraphIndent: 0,
-  TypographyHeadingSmParagraphSpacing: 0,
-  TypographyHeadingSmTextCase: "none",
-  TypographyHeadingXsFontSize: 16,
-  TypographyHeadingXsTextDecoration: "none",
-  TypographyHeadingXsFontFamily: "Noto Serif",
-  TypographyHeadingXsFontWeight: 500,
-  TypographyHeadingXsFontStyle: "normal",
-  TypographyHeadingXsFontStretch: "normal",
-  TypographyHeadingXsLetterSpacing: 0.15,
-  TypographyHeadingXsLineHeight: 24,
-  TypographyHeadingXsParagraphIndent: 0,
-  TypographyHeadingXsParagraphSpacing: 0,
-  TypographyHeadingXsTextCase: "none",
-  TypographySubtitleLgFontSize: 16,
-  TypographySubtitleLgTextDecoration: "none",
-  TypographySubtitleLgFontFamily: "Noto Serif",
-  TypographySubtitleLgFontWeight: 500,
-  TypographySubtitleLgFontStyle: "normal",
-  TypographySubtitleLgFontStretch: "normal",
-  TypographySubtitleLgLetterSpacing: 0.1,
-  TypographySubtitleLgLineHeight: 16,
-  TypographySubtitleLgParagraphIndent: 0,
-  TypographySubtitleLgParagraphSpacing: 0,
-  TypographySubtitleLgTextCase: "none",
-  TypographySubtitleMdFontSize: 14,
-  TypographySubtitleMdTextDecoration: "none",
-  TypographySubtitleMdFontFamily: "Alice",
-  TypographySubtitleMdFontWeight: 400,
-  TypographySubtitleMdFontStyle: "normal",
-  TypographySubtitleMdFontStretch: "normal",
-  TypographySubtitleMdLetterSpacing: 0,
-  TypographySubtitleMdLineHeight: 14,
-  TypographySubtitleMdParagraphIndent: 0,
-  TypographySubtitleMdParagraphSpacing: 0,
-  TypographySubtitleMdTextCase: "none",
-  TypographyTextMdFontSize: 16,
-  TypographyTextMdTextDecoration: "none",
-  TypographyTextMdFontFamily: "Noto Serif",
-  TypographyTextMdFontWeight: 400,
-  TypographyTextMdFontStyle: "normal",
-  TypographyTextMdFontStretch: "normal",
-  TypographyTextMdLetterSpacing: 0.5,
-  TypographyTextMdLineHeight: 16,
-  TypographyTextMdParagraphIndent: 0,
-  TypographyTextMdParagraphSpacing: 0,
-  TypographyTextMdTextCase: "none",
-  TypographyTextSmFontSize: 14,
-  TypographyTextSmTextDecoration: "none",
-  TypographyTextSmFontFamily: "Alice",
-  TypographyTextSmFontWeight: 400,
-  TypographyTextSmFontStyle: "normal",
-  TypographyTextSmFontStretch: "normal",
-  TypographyTextSmLetterSpacing: 0.035,
-  TypographyTextSmLineHeight: 14,
-  TypographyTextSmParagraphIndent: 0,
-  TypographyTextSmParagraphSpacing: 0,
-  TypographyTextSmTextCase: "none",
-  TypographyCaptionCaptionFontSize: 12,
-  TypographyCaptionCaptionTextDecoration: "none",
-  TypographyCaptionCaptionFontFamily: "Noto Serif",
-  TypographyCaptionCaptionFontWeight: 400,
-  TypographyCaptionCaptionFontStyle: "normal",
-  TypographyCaptionCaptionFontStretch: "normal",
-  TypographyCaptionCaptionLetterSpacing: 0.4,
-  TypographyCaptionCaptionLineHeight: 16,
-  TypographyCaptionCaptionParagraphIndent: 0,
-  TypographyCaptionCaptionParagraphSpacing: 0,
-  TypographyCaptionCaptionTextCase: "uppercase",
-};
+export const ColorBlack = "#000000";
+export const ColorWhite = "#ffffff";
+export const ColorPrimary = "#a82424";
+export const ColorSecondary = "#d98736";
+export const FontHeading2xl = {"fontSize":96,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":300,"fontStyle":"normal","fontStretch":"normal","letterSpacing":-1.5,"lineHeight":96,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"capitalize"};
+export const FontHeadingXl = {"fontSize":64,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":300,"fontStyle":"normal","fontStretch":"normal","letterSpacing":-0.5,"lineHeight":72,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontHeadingLg = {"fontSize":48,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":48,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontHeadingMd = {"fontSize":34,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.25,"lineHeight":34,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontHeadingSm = {"fontSize":24,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":24,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontHeadingXs = {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":500,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.15,"lineHeight":24,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontSubtitleLg = {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":500,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.1,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontSubtitleMd = {"fontSize":14,"textDecoration":"none","fontFamily":"Alice","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":14,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontTextMd = {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.5,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontTextSm = {"fontSize":14,"textDecoration":"none","fontFamily":"Alice","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.035,"lineHeight":14,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontCaptionCaption = {"fontSize":12,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.4,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"uppercase"};
+export const TypographyHeading2xlFontSize = 96;
+export const TypographyHeading2xlTextDecoration = "none";
+export const TypographyHeading2xlFontFamily = "Noto Serif";
+export const TypographyHeading2xlFontWeight = 300;
+export const TypographyHeading2xlFontStyle = "normal";
+export const TypographyHeading2xlFontStretch = "normal";
+export const TypographyHeading2xlLetterSpacing = -1.5;
+export const TypographyHeading2xlLineHeight = 96;
+export const TypographyHeading2xlParagraphIndent = 0;
+export const TypographyHeading2xlParagraphSpacing = 0;
+export const TypographyHeading2xlTextCase = "capitalize";
+export const TypographyHeadingXlFontSize = 64;
+export const TypographyHeadingXlTextDecoration = "none";
+export const TypographyHeadingXlFontFamily = "Noto Serif";
+export const TypographyHeadingXlFontWeight = 300;
+export const TypographyHeadingXlFontStyle = "normal";
+export const TypographyHeadingXlFontStretch = "normal";
+export const TypographyHeadingXlLetterSpacing = -0.5;
+export const TypographyHeadingXlLineHeight = 72;
+export const TypographyHeadingXlParagraphIndent = 0;
+export const TypographyHeadingXlParagraphSpacing = 0;
+export const TypographyHeadingXlTextCase = "none";
+export const TypographyHeadingLgFontSize = 48;
+export const TypographyHeadingLgTextDecoration = "none";
+export const TypographyHeadingLgFontFamily = "Noto Serif";
+export const TypographyHeadingLgFontWeight = 400;
+export const TypographyHeadingLgFontStyle = "normal";
+export const TypographyHeadingLgFontStretch = "normal";
+export const TypographyHeadingLgLetterSpacing = 0;
+export const TypographyHeadingLgLineHeight = 48;
+export const TypographyHeadingLgParagraphIndent = 0;
+export const TypographyHeadingLgParagraphSpacing = 0;
+export const TypographyHeadingLgTextCase = "none";
+export const TypographyHeadingMdFontSize = 34;
+export const TypographyHeadingMdTextDecoration = "none";
+export const TypographyHeadingMdFontFamily = "Noto Serif";
+export const TypographyHeadingMdFontWeight = 400;
+export const TypographyHeadingMdFontStyle = "normal";
+export const TypographyHeadingMdFontStretch = "normal";
+export const TypographyHeadingMdLetterSpacing = 0.25;
+export const TypographyHeadingMdLineHeight = 34;
+export const TypographyHeadingMdParagraphIndent = 0;
+export const TypographyHeadingMdParagraphSpacing = 0;
+export const TypographyHeadingMdTextCase = "none";
+export const TypographyHeadingSmFontSize = 24;
+export const TypographyHeadingSmTextDecoration = "none";
+export const TypographyHeadingSmFontFamily = "Noto Serif";
+export const TypographyHeadingSmFontWeight = 400;
+export const TypographyHeadingSmFontStyle = "normal";
+export const TypographyHeadingSmFontStretch = "normal";
+export const TypographyHeadingSmLetterSpacing = 0;
+export const TypographyHeadingSmLineHeight = 24;
+export const TypographyHeadingSmParagraphIndent = 0;
+export const TypographyHeadingSmParagraphSpacing = 0;
+export const TypographyHeadingSmTextCase = "none";
+export const TypographyHeadingXsFontSize = 16;
+export const TypographyHeadingXsTextDecoration = "none";
+export const TypographyHeadingXsFontFamily = "Noto Serif";
+export const TypographyHeadingXsFontWeight = 500;
+export const TypographyHeadingXsFontStyle = "normal";
+export const TypographyHeadingXsFontStretch = "normal";
+export const TypographyHeadingXsLetterSpacing = 0.15;
+export const TypographyHeadingXsLineHeight = 24;
+export const TypographyHeadingXsParagraphIndent = 0;
+export const TypographyHeadingXsParagraphSpacing = 0;
+export const TypographyHeadingXsTextCase = "none";
+export const TypographySubtitleLgFontSize = 16;
+export const TypographySubtitleLgTextDecoration = "none";
+export const TypographySubtitleLgFontFamily = "Noto Serif";
+export const TypographySubtitleLgFontWeight = 500;
+export const TypographySubtitleLgFontStyle = "normal";
+export const TypographySubtitleLgFontStretch = "normal";
+export const TypographySubtitleLgLetterSpacing = 0.1;
+export const TypographySubtitleLgLineHeight = 16;
+export const TypographySubtitleLgParagraphIndent = 0;
+export const TypographySubtitleLgParagraphSpacing = 0;
+export const TypographySubtitleLgTextCase = "none";
+export const TypographySubtitleMdFontSize = 14;
+export const TypographySubtitleMdTextDecoration = "none";
+export const TypographySubtitleMdFontFamily = "Alice";
+export const TypographySubtitleMdFontWeight = 400;
+export const TypographySubtitleMdFontStyle = "normal";
+export const TypographySubtitleMdFontStretch = "normal";
+export const TypographySubtitleMdLetterSpacing = 0;
+export const TypographySubtitleMdLineHeight = 14;
+export const TypographySubtitleMdParagraphIndent = 0;
+export const TypographySubtitleMdParagraphSpacing = 0;
+export const TypographySubtitleMdTextCase = "none";
+export const TypographyTextMdFontSize = 16;
+export const TypographyTextMdTextDecoration = "none";
+export const TypographyTextMdFontFamily = "Noto Serif";
+export const TypographyTextMdFontWeight = 400;
+export const TypographyTextMdFontStyle = "normal";
+export const TypographyTextMdFontStretch = "normal";
+export const TypographyTextMdLetterSpacing = 0.5;
+export const TypographyTextMdLineHeight = 16;
+export const TypographyTextMdParagraphIndent = 0;
+export const TypographyTextMdParagraphSpacing = 0;
+export const TypographyTextMdTextCase = "none";
+export const TypographyTextSmFontSize = 14;
+export const TypographyTextSmTextDecoration = "none";
+export const TypographyTextSmFontFamily = "Alice";
+export const TypographyTextSmFontWeight = 400;
+export const TypographyTextSmFontStyle = "normal";
+export const TypographyTextSmFontStretch = "normal";
+export const TypographyTextSmLetterSpacing = 0.035;
+export const TypographyTextSmLineHeight = 14;
+export const TypographyTextSmParagraphIndent = 0;
+export const TypographyTextSmParagraphSpacing = 0;
+export const TypographyTextSmTextCase = "none";
+export const TypographyCaptionCaptionFontSize = 12;
+export const TypographyCaptionCaptionTextDecoration = "none";
+export const TypographyCaptionCaptionFontFamily = "Noto Serif";
+export const TypographyCaptionCaptionFontWeight = 400;
+export const TypographyCaptionCaptionFontStyle = "normal";
+export const TypographyCaptionCaptionFontStretch = "normal";
+export const TypographyCaptionCaptionLetterSpacing = 0.4;
+export const TypographyCaptionCaptionLineHeight = 16;
+export const TypographyCaptionCaptionParagraphIndent = 0;
+export const TypographyCaptionCaptionParagraphSpacing = 0;
+export const TypographyCaptionCaptionTextCase = "uppercase";
