@@ -11,6 +11,7 @@ import {
   FontTextSm,
 } from '../build/js'
 import { pxToRem } from '../utils/pxToRem'
+import { getFontSizes } from '../utils/getFontSizes'
 
 export const heading = {
   '2xl': pxToRem(FontHeading2xl.fontSize),
@@ -30,3 +31,13 @@ export const text = {
   md: pxToRem(FontTextMd.fontSize),
   sm: pxToRem(FontTextSm.fontSize),
 } as const
+
+const uniqueSizes = new Set([
+  ...Object.values(heading),
+  ...Object.values(subtitle),
+  ...Object.values(text),
+])
+
+export const fontSizes = getFontSizes(
+  Array.from(uniqueSizes).sort((a: any, b: any) => a - b),
+)

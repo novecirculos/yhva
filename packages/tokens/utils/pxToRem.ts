@@ -1,5 +1,5 @@
-export function pxToRem(pixels: number) {
-  const rem = pixels * 0.0625;
+export function pxToRem(pixels: number): string {
+  const rem = pixels * 0.0625
 
-  return rem;
+  return `${rem}rem`
 }

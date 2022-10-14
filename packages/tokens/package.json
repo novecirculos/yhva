@@ -6,6 +6,7 @@
   "types": "./dist/index.d.ts",
   "license": "MIT",
   "dependencies": {
+    "lodash": "^4.17.21",
     "style-dictionary": "^3.7.1"
   },
   "scripts": {
@@ -15,8 +16,8 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
-    "@yhva/ts-config": "*",
     "@yhva/eslint-config": "*",
+    "@yhva/ts-config": "*",
     "tsup": "^6.2.3",
     "typescript": "^4.8.4"
   }
