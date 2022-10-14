@@ -10,6 +10,16 @@
           "format": "javascript/es6"
         }
       ]
+    },
+    "ts": {
+      "transformGroup": "js",
+      "buildPath": "build/js/",
+      "files": [
+        {
+          "destination": "index.d.ts",
+          "format": "typescript/es6-declarations"
+        }
+      ]
     }
   }
 }

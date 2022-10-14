@@ -1,0 +1,6 @@
+{
+ "extends": "@yhva/ts-config/base.json",
+ "include": [
+  "src"
+ ]
+}

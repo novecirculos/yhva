@@ -3,7 +3,7 @@ import {
   ColorPrimary,
   ColorSecondary,
   ColorWhite,
-} from "../build/js/tokens";
+} from "../build/js";
 
 export const colors = {
   black: ColorBlack,
