@@ -1,7 +1,9 @@
 {
   "name": "@yhva/tokens",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "license": "MIT",
   "dependencies": {
     "style-dictionary": "^3.7.1"
@@ -10,5 +12,9 @@
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "build-tokens": "style-dictionary build"
+  },
+  "devDependencies": {
+    "tsup": "^6.2.3",
+    "typescript": "^4.8.4"
   }
 }

@@ -1,15 +1,32 @@
-export const fontSizes = {
-  xxs: "0.625rem",
-  xs: "0.75rem",
-  sm: "0.875rem",
-  md: "1rem",
-  lg: "1.125rem",
-  xl: "1.25rem",
-  "2xl": "1.5rem",
-  "4xl": "2rem",
-  "5xl": "2.25rem",
-  "6xl": "3rem",
-  "7xl": "4rem",
-  "8xl": "4.5rem",
-  "9xl": "6rem",
-};
+import {
+  FontHeading2xl,
+  FontHeadingXl,
+  FontHeadingLg,
+  FontHeadingMd,
+  FontHeadingXs,
+  FontHeadingSm,
+  FontSubtitleLg,
+  FontSubtitleMd,
+  FontTextMd,
+  FontTextSm,
+} from "../build/js/tokens";
+import { pxToRem } from "../utils/pxToRem";
+
+export const heading = {
+  "2xl": pxToRem(FontHeading2xl.fontSize),
+  xl: pxToRem(FontHeadingXl.fontSize),
+  lg: pxToRem(FontHeadingLg.fontSize),
+  md: pxToRem(FontHeadingMd.fontSize),
+  xs: pxToRem(FontHeadingXs.fontSize),
+  sm: pxToRem(FontHeadingSm.fontSize),
+} as const;
+
+export const subtitle = {
+  lg: pxToRem(FontSubtitleLg.fontSize),
+  md: pxToRem(FontSubtitleMd.fontSize),
+} as const;
+
+export const text = {
+  md: pxToRem(FontTextMd.fontSize),
+  sm: pxToRem(FontTextSm.fontSize),
+} as const;
