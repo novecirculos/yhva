@@ -10,26 +10,25 @@ import {
   FontTextMd,
   FontTextSm,
 } from '../build/js'
-import { pxToRem } from '../utils/pxToRem'
 import { getFontSizes } from '../utils/getFontSizes'
 
 export const heading = {
-  '2xl': pxToRem(FontHeading2xl.fontSize),
-  xl: pxToRem(FontHeadingXl.fontSize),
-  lg: pxToRem(FontHeadingLg.fontSize),
-  md: pxToRem(FontHeadingMd.fontSize),
-  xs: pxToRem(FontHeadingXs.fontSize),
-  sm: pxToRem(FontHeadingSm.fontSize),
+  '2xl': FontHeading2xl.fontSize,
+  xl: FontHeadingXl.fontSize,
+  lg: FontHeadingLg.fontSize,
+  md: FontHeadingMd.fontSize,
+  xs: FontHeadingXs.fontSize,
+  sm: FontHeadingSm.fontSize,
 } as const
 
 export const subtitle = {
-  lg: pxToRem(FontSubtitleLg.fontSize),
-  md: pxToRem(FontSubtitleMd.fontSize),
+  lg: FontSubtitleLg.fontSize,
+  md: FontSubtitleMd.fontSize,
 } as const
 
 export const text = {
-  md: pxToRem(FontTextMd.fontSize),
-  sm: pxToRem(FontTextSm.fontSize),
+  md: FontTextMd.fontSize,
+  sm: FontTextSm.fontSize,
 } as const
 
 const uniqueSizes = new Set([
@@ -38,6 +37,6 @@ const uniqueSizes = new Set([
   ...Object.values(text),
 ])
 
-export const fontSizes = getFontSizes(
-  Array.from(uniqueSizes).sort((a: any, b: any) => a - b),
-)
+const sizes = Array.from(uniqueSizes)
+
+export const fontSizes = getFontSizes(sizes)
