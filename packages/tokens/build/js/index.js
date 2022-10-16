@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 14 Oct 2022 13:41:02 GMT
+ * Generated on Sun, 16 Oct 2022 18:28:01 GMT
  */
 
 export const ColorBrandPrimary = "#a82424";
@@ -31,7 +31,7 @@ export const ColorGrayLight9 = "#8f8f8f";
 export const ColorGrayLight10 = "#858585";
 export const ColorGrayLight11 = "#6f6f6f";
 export const ColorGrayLight12 = "#171717";
-export const FontHeading2xl = {"fontSize":96,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":300,"fontStyle":"normal","fontStretch":"normal","letterSpacing":-1.5,"lineHeight":96,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"capitalize"};
+export const FontHeading2xl = {"fontSize":97,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":300,"fontStyle":"normal","fontStretch":"normal","letterSpacing":-1.5,"lineHeight":96,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"capitalize"};
 export const FontHeadingXl = {"fontSize":64,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":300,"fontStyle":"normal","fontStretch":"normal","letterSpacing":-0.5,"lineHeight":72,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontHeadingLg = {"fontSize":48,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":48,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontHeadingMd = {"fontSize":34,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.25,"lineHeight":34,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
@@ -42,7 +42,7 @@ export const FontSubtitleMd = {"fontSize":14,"textDecoration":"none","fontFamily
 export const FontTextMd = {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.5,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontTextSm = {"fontSize":14,"textDecoration":"none","fontFamily":"Alice","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.035,"lineHeight":14,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontCaptionCaption = {"fontSize":12,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0.4,"lineHeight":16,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"uppercase"};
-export const TypographyHeading2xlFontSize = 96;
+export const TypographyHeading2xlFontSize = 97;
 export const TypographyHeading2xlTextDecoration = "none";
 export const TypographyHeading2xlFontFamily = "Noto Serif";
 export const TypographyHeading2xlFontWeight = 300;
