@@ -3,9 +3,14 @@ import '../styles/tokens-grid.css'
 interface TokensGridProps {
   tokens: Record<string, string>
   hasPxValue?: boolean
+  hasRemValue?: boolean
 }
 
-export function TokensGrid({ tokens, hasPxValue = false }: TokensGridProps) {
+export function TokensGrid({
+  tokens,
+  hasPxValue = false,
+  hasRemValue = false,
+}: TokensGridProps) {
   return (
     <table className="tokens-grid">
       <thead>
@@ -13,6 +18,7 @@ export function TokensGrid({ tokens, hasPxValue = false }: TokensGridProps) {
           <th>Name</th>
           <th>Value</th>
           {hasPxValue && <th>Rem</th>}
+          {hasRemValue && <th>Px</th>}
         </tr>
       </thead>
       <tbody>
@@ -23,6 +29,7 @@ export function TokensGrid({ tokens, hasPxValue = false }: TokensGridProps) {
             {hasPxValue && (
               <td>{Number(value.replace('px', '')) * 0.0625}rem</td>
             )}
+            {hasRemValue && <td>{Number(value.replace('rem', '')) * 16}px</td>}
           </tr>
         ))}
       </tbody>

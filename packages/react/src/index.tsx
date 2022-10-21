@@ -11,11 +11,11 @@ export const Button = styled('button', {
   variants: {
     variant: {
       small: {
-        fontSize: 14,
+        fontSize: '$sm',
         padding: '$2 $4',
       },
       big: {
-        fontSize: 16,
+        fontSize: '$md',
         padding: '$3 $6',
       },
     },

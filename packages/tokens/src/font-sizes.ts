@@ -1,42 +1,25 @@
 import {
-  FontHeading2xl,
-  FontHeadingXl,
-  FontHeadingLg,
-  FontHeadingMd,
-  FontHeadingXs,
-  FontHeadingSm,
-  FontSubtitleLg,
-  FontSubtitleMd,
-  FontTextMd,
-  FontTextSm,
+  FontTextxsRegular,
+  FontTextsmRegular,
+  FontTextbaseRegular,
+  FontTextlgRegular,
+  FontTextxlRegular,
+  FontText2xlRegular,
+  FontText3xlRegular,
+  FontText4xlRegular,
+  FontText5xlRegular,
+  FontText6xlRegular,
 } from '../build/js'
-import { getFontSizes } from '../utils/getFontSizes'
 
-export const heading = {
-  '2xl': FontHeading2xl.fontSize,
-  xl: FontHeadingXl.fontSize,
-  lg: FontHeadingLg.fontSize,
-  md: FontHeadingMd.fontSize,
-  xs: FontHeadingXs.fontSize,
-  sm: FontHeadingSm.fontSize,
+export const fontSizes = {
+  xs: `${FontTextxsRegular.fontSize * 0.0625}rem`,
+  sm: `${FontTextsmRegular.fontSize * 0.0625}rem`,
+  base: `${FontTextbaseRegular.fontSize * 0.0625}rem`,
+  lg: `${FontTextlgRegular.fontSize * 0.0625}rem`,
+  xl: `${FontTextxlRegular.fontSize * 0.0625}rem`,
+  '2xl': `${FontText2xlRegular.fontSize * 0.0625}rem`,
+  '3xl': `${FontText3xlRegular.fontSize * 0.0625}rem`,
+  '4xl': `${FontText4xlRegular.fontSize * 0.0625}rem`,
+  '5xl': `${FontText5xlRegular.fontSize * 0.0625}rem`,
+  '6xl': `${FontText6xlRegular.fontSize * 0.0625}rem`,
 } as const
-
-export const subtitle = {
-  lg: FontSubtitleLg.fontSize,
-  md: FontSubtitleMd.fontSize,
-} as const
-
-export const text = {
-  md: FontTextMd.fontSize,
-  sm: FontTextSm.fontSize,
-} as const
-
-const uniqueSizes = new Set([
-  ...Object.values(heading),
-  ...Object.values(subtitle),
-  ...Object.values(text),
-])
-
-const sizes = Array.from(uniqueSizes)
-
-export const fontSizes = getFontSizes(sizes)
