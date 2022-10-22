@@ -11,16 +11,6 @@
         }
       ]
     },
-    "css": {
-      "transformGroup": "css",
-      "buildPath": "build/css/",
-      "files": [
-        {
-          "destination": "variables.css",
-          "format": "css/variables"
-        }
-      ]
-    },
     "ts": {
       "transformGroup": "js",
       "buildPath": "build/js/",

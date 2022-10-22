@@ -5,8 +5,8 @@ export const Button = styled('button', {
   fontFamily: '$heading',
   backgroundColor: '$primary',
   padding: '$4',
-  border: 0,
   color: '$white',
+  border: 0,
 
   variants: {
     variant: {
