@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 22 Oct 2022 13:28:54 GMT
+ * Generated on Sat, 22 Oct 2022 13:54:42 GMT
  */
 
 export const Spacing1 : { top: number, bottom: number, left: number, right: number };
