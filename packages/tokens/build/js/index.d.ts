@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 22 Oct 2022 13:54:42 GMT
+ * Generated on Sat, 29 Oct 2022 15:59:13 GMT
  */
 
 export const Spacing1 : { top: number, bottom: number, left: number, right: number };
@@ -59,8 +59,6 @@ export const ColorSecondary700 : string;
 export const ColorSecondary800 : string;
 export const ColorSecondary900 : string;
 export const ColorSecondarySecondary : string;
-export const ColorBlackandwhiteWhite : string;
-export const ColorBlackandwhiteBlack : string;
 export const ColorGray50 : string;
 export const ColorGray100 : string;
 export const ColorGray200 : string;
@@ -71,15 +69,42 @@ export const ColorGray600 : string;
 export const ColorGray700 : string;
 export const ColorGray800 : string;
 export const ColorGray900 : string;
+export const ColorBlackandwhiteWhite : string;
+export const ColorBlackandwhiteBlack : string;
+export const ColorBlackalpha50 : string;
+export const ColorBlackalpha100 : string;
+export const ColorBlackalpha200 : string;
+export const ColorBlackalpha300 : string;
+export const ColorBlackalpha400 : string;
+export const ColorBlackalpha500 : string;
+export const ColorBlackalpha600 : string;
+export const ColorBlackalpha700 : string;
+export const ColorBlackalpha800 : string;
+export const ColorBlackalpha900 : string;
+export const ColorWhitealpha50 : string;
+export const ColorWhitealpha100 : string;
+export const ColorWhitealpha200 : string;
+export const ColorWhitealpha300 : string;
+export const ColorWhitealpha400 : string;
+export const ColorWhitealpha500 : string;
+export const ColorWhitealpha600 : string;
+export const ColorWhitealpha700 : string;
+export const ColorWhitealpha800 : string;
+export const ColorWhitealpha900 : string;
+export const Grid12col : { pattern: string, sectionSize: number, gutterSize: number, alignment: string, count: number };
+export const Grid12colMobile : { pattern: string, gutterSize: number, alignment: string, count: number, offset: number };
 export const FontTextxsRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const FontTextsmRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const FontTextbaseRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
+export const FontTextbaseSemibold : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const FontTextlgRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const FontTextxlRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
+export const FontTextxlMedium : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const FontText2xlRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const FontText3xlRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const FontText4xlRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const FontText5xlRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
+export const FontText5xlMedium : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const FontText6xlRegular : { fontSize: number, textDecoration: string, fontFamily: string, fontWeight: number, fontStyle: string, fontStretch: string, letterSpacing: number, lineHeight: number, paragraphIndent: number, paragraphSpacing: number, textCase: string };
 export const EffectInner : { shadowType: string, radius: number, color: string, offsetX: number, offsetY: number, spread: number };
 export const Effect2xl : { shadowType: string, radius: number, color: string, offsetX: number, offsetY: number, spread: number };

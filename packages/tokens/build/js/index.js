@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 22 Oct 2022 13:54:42 GMT
+ * Generated on Sat, 29 Oct 2022 15:59:13 GMT
  */
 
 export const Spacing1 = {"top":4,"bottom":4,"left":4,"right":4};
@@ -59,27 +59,52 @@ export const ColorSecondary700 = "#e5af79";
 export const ColorSecondary800 = "#e1a262";
 export const ColorSecondary900 = "#dd944c";
 export const ColorSecondarySecondary = "#d98736";
+export const ColorGray50 = "#fafafa";
+export const ColorGray100 = "#f5f5f5";
+export const ColorGray200 = "#e5e5e5";
+export const ColorGray300 = "#d4d4d4";
+export const ColorGray400 = "#a3a3a3";
+export const ColorGray500 = "#737373";
+export const ColorGray600 = "#525252";
+export const ColorGray700 = "#404040";
+export const ColorGray800 = "#262626";
+export const ColorGray900 = "#171717";
 export const ColorBlackandwhiteWhite = "#ffffff";
 export const ColorBlackandwhiteBlack = "#000000";
-export const ColorGray50 = "#7e7e7e";
-export const ColorGray100 = "#707070";
-export const ColorGray200 = "#505050";
-export const ColorGray300 = "#3e3e3e";
-export const ColorGray400 = "#343434";
-export const ColorGray500 = "#2e2e2e";
-export const ColorGray600 = "#282828";
-export const ColorGray700 = "#232323";
-export const ColorGray800 = "#1c1c1c";
-export const ColorGray900 = "#161616";
+export const ColorBlackalpha50 = "#000000";
+export const ColorBlackalpha100 = "#000000";
+export const ColorBlackalpha200 = "#000000";
+export const ColorBlackalpha300 = "#000000";
+export const ColorBlackalpha400 = "#000000";
+export const ColorBlackalpha500 = "#000000";
+export const ColorBlackalpha600 = "#000000";
+export const ColorBlackalpha700 = "#000000";
+export const ColorBlackalpha800 = "#000000";
+export const ColorBlackalpha900 = "#000000";
+export const ColorWhitealpha50 = "#ffffff";
+export const ColorWhitealpha100 = "#ffffff";
+export const ColorWhitealpha200 = "#ffffff";
+export const ColorWhitealpha300 = "#ffffff";
+export const ColorWhitealpha400 = "#ffffff";
+export const ColorWhitealpha500 = "#ffffff";
+export const ColorWhitealpha600 = "#ffffff";
+export const ColorWhitealpha700 = "#ffffff";
+export const ColorWhitealpha800 = "#ffffff";
+export const ColorWhitealpha900 = "#ffffff";
+export const Grid12col = {"pattern":"columns","sectionSize":90,"gutterSize":30,"alignment":"center","count":12};
+export const Grid12colMobile = {"pattern":"columns","gutterSize":10,"alignment":"stretch","count":12,"offset":16};
 export const FontTextxsRegular = {"fontSize":12,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":18,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontTextsmRegular = {"fontSize":14,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":21,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontTextbaseRegular = {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":24,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontTextbaseSemibold = {"fontSize":16,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":600,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":24,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontTextlgRegular = {"fontSize":18,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":27,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontTextxlRegular = {"fontSize":20,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":30,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontTextxlMedium = {"fontSize":20,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":500,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":30,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontText2xlRegular = {"fontSize":24,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":36,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontText3xlRegular = {"fontSize":30,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":45,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontText4xlRegular = {"fontSize":36,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":54,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontText5xlRegular = {"fontSize":48,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":72,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
+export const FontText5xlMedium = {"fontSize":48,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":500,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":72,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const FontText6xlRegular = {"fontSize":64,"textDecoration":"none","fontFamily":"Noto Serif","fontWeight":400,"fontStyle":"normal","fontStretch":"normal","letterSpacing":0,"lineHeight":96,"paragraphIndent":0,"paragraphSpacing":0,"textCase":"none"};
 export const EffectInner = {"shadowType":"innerShadow","radius":4,"color":"#0000000f","offsetX":0,"offsetY":2,"spread":0};
 export const Effect2xl = {"shadowType":"dropShadow","radius":50,"color":"#00000040","offsetX":0,"offsetY":25,"spread":0};
