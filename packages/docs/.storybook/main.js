@@ -24,7 +24,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     if (configType === "PRODUCTION") {
-      return (config.base = "/yhva/");
+      config.base = "/yhva/";
     }
 
     return config;
