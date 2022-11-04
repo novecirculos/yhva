@@ -45,12 +45,11 @@ export const Button = styled('button', {
       },
 
       secondary: {
-        color: '$white',
+        color: '$black',
         background: '$secondary',
 
         '&:not(:disabled):hover': {
           background: '$secondary800',
-          color: '$white',
         },
 
         '&:disabled': {
