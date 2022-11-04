@@ -15,4 +15,10 @@ module.exports = {
   features: {
     storyStoreV7: true,
   },
+  options: {
+    storySort: {
+      method: "alphabetical",
+      locales: "en-US",
+    },
+  },
 };
