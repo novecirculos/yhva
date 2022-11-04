@@ -22,4 +22,11 @@ module.exports = {
       locales: "en-US",
     },
   },
+  viteFinal: (config, { configType }) => {
+    if (configType === "PRODUCTION") {
+      return (config.base = "/yhva/");
+    }
+
+    return config;
+  },
 };
