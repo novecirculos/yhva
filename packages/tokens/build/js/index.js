@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 31 Oct 2022 22:38:29 GMT
+ * Generated on Fri, 04 Nov 2022 20:25:14 GMT
  */
 
 export const Spacing1 = {"top":4,"bottom":4,"left":4,"right":4};
@@ -23,7 +23,7 @@ export const Spacing32 = {"top":128,"bottom":128,"left":128,"right":128};
 export const SpacingPx = {"top":1,"bottom":1,"left":1,"right":1};
 export const BordersHairline = {"align":"inside","dashPattern":[0,0],"lineCap":"none","lineJoin":"miter","miterLimit":4,"weight":1,"color":"#000000ff"};
 export const BordersThin = {"align":"inside","dashPattern":[0,0],"lineCap":"none","lineJoin":"miter","miterLimit":4,"weight":2,"color":"#000000ff"};
-export const BordersThick = {"align":"inside","dashPattern":[0,0],"lineCap":"none","lineJoin":"miter","miterLimit":4,"weight":4,"color":"#000000ff"};
+export const BordersThick = {"align":"inside","dashPattern":[0,0],"lineCap":"none","lineJoin":"miter","miterLimit":4,"weight":5,"color":"#000000ff"};
 export const BordersHeavy = {"align":"inside","dashPattern":[0,0],"lineCap":"none","lineJoin":"miter","miterLimit":4,"weight":8,"color":"#000000ff"};
 export const RadiiFull = {"smoothing":0,"topLeft":9999,"topRight":9999,"bottomLeft":9999,"bottomRight":9999};
 export const Radii3xl = {"smoothing":0,"topLeft":24,"topRight":24,"bottomLeft":24,"bottomRight":24};
@@ -69,7 +69,7 @@ export const ColorGray600 = "#525252";
 export const ColorGray700 = "#404040";
 export const ColorGray800 = "#262626";
 export const ColorGray900 = "#171717";
-export const ColorBlackandwhiteWhite = "#ffffff";
+export const ColorBlackandwhiteWhite = "#ff0000";
 export const ColorBlackandwhiteBlack = "#000000";
 export const ColorBlackalpha50 = "#000000";
 export const ColorBlackalpha100 = "#000000";
