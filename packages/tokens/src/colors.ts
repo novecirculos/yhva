@@ -86,4 +86,5 @@ export const colors = {
   whiteAlpha700: 'rgba(255, 255 ,255 , 0.64)',
   whiteAlpha800: 'rgba(255, 255 ,255 , 0.75)',
   whiteAlpha900: 'rgba(255, 255 ,255 , 0.92)',
+  test: '#fff',
 } as const
