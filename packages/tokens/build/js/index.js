@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 04 Nov 2022 20:25:14 GMT
+ * Generated on Sat, 12 Nov 2022 14:21:48 GMT
  */
 
 export const Spacing1 = {"top":4,"bottom":4,"left":4,"right":4};
@@ -69,7 +69,7 @@ export const ColorGray600 = "#525252";
 export const ColorGray700 = "#404040";
 export const ColorGray800 = "#262626";
 export const ColorGray900 = "#171717";
-export const ColorBlackandwhiteWhite = "#ff0000";
+export const ColorBlackandwhiteWhite = "#ffffff";
 export const ColorBlackandwhiteBlack = "#000000";
 export const ColorBlackalpha50 = "#000000";
 export const ColorBlackalpha100 = "#000000";
