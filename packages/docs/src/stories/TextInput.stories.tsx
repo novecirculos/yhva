@@ -27,15 +27,15 @@ export const Primary: StoryObj<TextInputProps> = {
   },
 }
 
-export const Disabled: StoryObj<TextInputProps> = {
-  args: {
-    disabled: true,
-  },
-}
-
 export const WithIcon: StoryObj<TextInputProps> = {
   args: {
     children: <Envelope />,
     placeholder: 'Type your email',
+  },
+}
+
+export const Disabled: StoryObj<TextInputProps> = {
+  args: {
+    disabled: true,
   },
 }
