@@ -38,7 +38,6 @@ export const {
     ...defaultThemeMap,
     height: 'space',
     width: 'space',
-    border: 'borderStyles',
     opacity: 'opacities',
   },
   utils: {
