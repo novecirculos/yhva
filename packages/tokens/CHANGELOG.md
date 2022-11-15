@@ -1,5 +1,11 @@
 # @yhva/tokens
 
+## 2.2.0
+
+### Minor Changes
+
+- New components - TextInput, Button, Heading, Text
+
 ## 2.1.0
 
 ### Minor Changes
