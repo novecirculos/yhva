@@ -1,5 +1,17 @@
 # @yhva/react
 
+## 3.3.0
+
+### Minor Changes
+
+- React Icons
+
+## 3.2.0
+
+### Minor Changes
+
+- fix phosphor
+
 ## 3.1.0
 
 ### Minor Changes
