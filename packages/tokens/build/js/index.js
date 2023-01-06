@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sat, 12 Nov 2022 14:21:48 GMT
+ * Generated on Fri, 06 Jan 2023 16:10:04 GMT
  */
 
 export const Spacing1 = {"top":4,"bottom":4,"left":4,"right":4};
@@ -47,7 +47,7 @@ export const ColorPrimary500 = "#e48181";
 export const ColorPrimary600 = "#df6868";
 export const ColorPrimary700 = "#da4e4e";
 export const ColorPrimary800 = "#d43535";
-export const ColorPrimary900 = "#c22929";
+export const ColorPrimary900 = "#29c2b9";
 export const ColorPrimaryPrimary = "#a82424";
 export const ColorSecondary100 = "#f8e9da";
 export const ColorSecondary200 = "#f6e4d2";
